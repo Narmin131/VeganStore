@@ -52,23 +52,27 @@
     }
     .testimional{
         height: auto !important;
-        .imgphoto{
+        
+        .test1{
+            .imgphoto{
             width: 30% !important;
             height: 40% !important;
         }
+        }
     }
     .follow{
+        margin-top: 2rem;
         height: auto !important;
         .bg{
             height: auto !important;
             .bg-right{
                 height: auto !important;
                 h1{
-                    font-size: 2rem !important;
+                    font-size: 1.7rem !important;
                 }
                 p{
                     font-size: 1.3rem !important;
-                    line-height: 1.2 !important;
+                    line-height: 1.1 !important;
                 }
                 input{
                     width: 90% !important;
@@ -104,6 +108,17 @@
     .contact{
         height: auto !important;
     }
+    .food-text{
+        height: auto !important;
+        .boxes-text{
+            height: auto !important;
+        }
+    }
+      .navbar-toggler{
+        background-color: rgb(84, 156, 114) !important;
+        color: wheat !important;
+      }
+
 }
 
 
@@ -113,7 +128,7 @@
         font-size: 3.8rem !important;
     }
     .steps{
-        height: auto;
+        height: auto !important;
         .text-in{
             height: 100% !important;
           i{
@@ -126,9 +141,30 @@
       }
       .boxes{
         height: auto !important;
-        .box1{
+        .all-box{
             height: auto !important;
+            .box1{
+            height: auto !important;
+            .box1-in{
+            height:auto !important;
+        i{
+          width: 12rem;
+          height: 12rem;
+          border-radius: 50%;
+          line-height: 12rem;
+          margin-bottom: 2rem;
+          font-size: 7rem;
         }
+        h1{
+          font-size: 2.8rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
+        }
+        }
+        
     }
       .box1-in{
        height: auto !important;
@@ -147,49 +183,190 @@
              font-size: 1.3rem;
          }
      }
- }
+     .testimional{
+        height: auto !important;
+        
+        .test1{
+            padding: 30px !important;
+            .imgphoto{
+            width: 30% !important;
+            height: 60% !important;
+        }
+        }
+    }
+    .follow{
+        margin-top: 2rem;
+        .bg{
+            .bg-right{
+                padding: 20px;
+                // height: auto !important;
+                .text-right{
+                  width: 70% !important;
+                h1{
+                    font-size: 2.7rem !important;
+                }
+                p{
+                    font-size: 1.6rem !important;
+                    line-height: 1.5 !important;
+                }
+                input{
+                    width: 80% !important;
+                    font-size: 1.3rem !important;
+                }
+                button{
+                    width: 50% !important;
+                    font-size: 1.3rem !important;
+                }
+            }
+            }
+        }
+    }
+    .customer{
+        height: auto !important;
+        padding: 2rem 0;
+        margin-top: 2rem;
+        h1{
+            font-size: 2.6rem !important;
+        }
+        p{
+            font-size: 1.8rem !important;
+        }
+    }
+
+    .video{
+        height: auto !important;
+        h1{
+            margin-top: 2rem;
+            font-size: 2.9rem !important;
+            margin-bottom: 1rem !important;
+        }
+    }
+    .contact{
+        height: auto !important;
+    }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width:991px) { 
-    .slider{
-        .slider-text h1{
-            font-size: 4rem !important;
-        }
-        
+    .slider-text h1{
+        font-size: 3.8rem !important;
     }
-    
     .steps{
-        height: auto;
+        height: auto !important;
         .text-in{
             height: 100% !important;
           i{
               font-size: 7rem !important;
           }
           h1{
-              font-size:4rem !important;
+              font-size:3.8rem !important;
           }
         }
       }
       .boxes{
-          height: auto;
-      }
-      .box1-in{
         height: auto !important;
-          i{
-            width: 13rem !important;
-            height: 13rem !important;
-            border-radius: 50%;
-            line-height: 13rem !important;
-            margin-bottom: 2rem;
-            font-size: 6em !important;
-          }
-          h1{
-            font-size: 2.6rem;
-          }
-          p{
-              font-size: 1.5rem;
-          }
-      }
+        .all-box{
+            height: auto !important;
+            .box1{
+            height: auto !important;
+            .box1-in{
+            height:auto !important;
+        i{
+          width: 12rem;
+          height: 12rem;
+          border-radius: 50%;
+          line-height: 12rem;
+          margin-bottom: 2rem;
+          font-size: 7rem;
+        }
+        h1{
+          font-size: 2.8rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
+        }
+        }
+        
+    }
+      .box1-in{
+       height: auto !important;
+         i{
+           width: 9rem !important;
+           height: 9rem !important;
+           border-radius: 50%;
+           line-height: 9rem !important;
+           margin-bottom: 2rem;
+           font-size: 4rem !important;
+         }
+         h1{
+           font-size: 2.2rem;
+         }
+         p{
+             font-size: 1.3rem;
+         }
+     }
+     .testimional{
+        height: auto !important;
+        
+        .test1{
+            .imgphoto{
+            width: 30% !important;
+            height: 40% !important;
+        }
+        }
+    }
+    .follow{
+        margin-top: 2rem;
+        .bg{
+            .bg-right{
+                padding: 20px;
+                // height: auto !important;
+                .text-right{
+                  width: 70% !important;
+                h1{
+                    font-size: 2.7rem !important;
+                }
+                p{
+                    font-size: 1.6rem !important;
+                    line-height: 1.5 !important;
+                }
+                input{
+                    width: 80% !important;
+                    font-size: 1.3rem !important;
+                }
+                button{
+                    width: 50% !important;
+                    font-size: 1.3rem !important;
+                }
+            }
+            }
+        }
+    }
+    .customer{
+        height: auto !important;
+        padding: 2rem 0;
+        margin-top: 2rem;
+        h1{
+            font-size: 2.2rem !important;
+        }
+        p{
+            font-size: 1.5rem !important;
+        }
+    }
+
+    .video{
+        height: auto !important;
+        h1{
+            margin-top: 2rem;
+            font-size: 2.5rem !important;
+            margin-bottom: 1rem !important;
+        }
+    }
+    .contact{
+        height: auto !important;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -206,4 +383,8 @@
     .box1-in{
       height: auto !important;
     }
+    .contact{
+        height: auto !important;
+    }
+    
 }

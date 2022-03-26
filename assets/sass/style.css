@@ -49,11 +49,12 @@
   .testimional {
     height: auto !important;
   }
-  .testimional .imgphoto {
+  .testimional .test1 .imgphoto {
     width: 30% !important;
     height: 40% !important;
   }
   .follow {
+    margin-top: 2rem;
     height: auto !important;
   }
   .follow .bg {
@@ -63,11 +64,11 @@
     height: auto !important;
   }
   .follow .bg .bg-right h1 {
-    font-size: 2rem !important;
+    font-size: 1.7rem !important;
   }
   .follow .bg .bg-right p {
     font-size: 1.3rem !important;
-    line-height: 1.2 !important;
+    line-height: 1.1 !important;
   }
   .follow .bg .bg-right input {
     width: 90% !important;
@@ -99,6 +100,16 @@
   .contact {
     height: auto !important;
   }
+  .food-text {
+    height: auto !important;
+  }
+  .food-text .boxes-text {
+    height: auto !important;
+  }
+  .navbar-toggler {
+    background-color: #549c72 !important;
+    color: wheat !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -106,7 +117,7 @@
     font-size: 3.8rem !important;
   }
   .steps {
-    height: auto;
+    height: auto !important;
   }
   .steps .text-in {
     height: 100% !important;
@@ -120,8 +131,28 @@
   .boxes {
     height: auto !important;
   }
-  .boxes .box1 {
+  .boxes .all-box {
     height: auto !important;
+  }
+  .boxes .all-box .box1 {
+    height: auto !important;
+  }
+  .boxes .all-box .box1 .box1-in {
+    height: auto !important;
+  }
+  .boxes .all-box .box1 .box1-in i {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    line-height: 12rem;
+    margin-bottom: 2rem;
+    font-size: 7rem;
+  }
+  .boxes .all-box .box1 .box1-in h1 {
+    font-size: 2.8rem;
+  }
+  .boxes .all-box .box1 .box1-in p {
+    font-size: 1.3rem;
   }
   .box1-in {
     height: auto !important;
@@ -140,14 +171,70 @@
   .box1-in p {
     font-size: 1.3rem;
   }
+  .testimional {
+    height: auto !important;
+  }
+  .testimional .test1 {
+    padding: 30px !important;
+  }
+  .testimional .test1 .imgphoto {
+    width: 30% !important;
+    height: 60% !important;
+  }
+  .follow {
+    margin-top: 2rem;
+  }
+  .follow .bg .bg-right {
+    padding: 20px;
+  }
+  .follow .bg .bg-right .text-right {
+    width: 70% !important;
+  }
+  .follow .bg .bg-right .text-right h1 {
+    font-size: 2.7rem !important;
+  }
+  .follow .bg .bg-right .text-right p {
+    font-size: 1.6rem !important;
+    line-height: 1.5 !important;
+  }
+  .follow .bg .bg-right .text-right input {
+    width: 80% !important;
+    font-size: 1.3rem !important;
+  }
+  .follow .bg .bg-right .text-right button {
+    width: 50% !important;
+    font-size: 1.3rem !important;
+  }
+  .customer {
+    height: auto !important;
+    padding: 2rem 0;
+    margin-top: 2rem;
+  }
+  .customer h1 {
+    font-size: 2.6rem !important;
+  }
+  .customer p {
+    font-size: 1.8rem !important;
+  }
+  .video {
+    height: auto !important;
+  }
+  .video h1 {
+    margin-top: 2rem;
+    font-size: 2.9rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .contact {
+    height: auto !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .slider .slider-text h1 {
-    font-size: 4rem !important;
+  .slider-text h1 {
+    font-size: 3.8rem !important;
   }
   .steps {
-    height: auto;
+    height: auto !important;
   }
   .steps .text-in {
     height: 100% !important;
@@ -156,27 +243,103 @@
     font-size: 7rem !important;
   }
   .steps .text-in h1 {
-    font-size: 4rem !important;
+    font-size: 3.8rem !important;
   }
   .boxes {
-    height: auto;
+    height: auto !important;
+  }
+  .boxes .all-box {
+    height: auto !important;
+  }
+  .boxes .all-box .box1 {
+    height: auto !important;
+  }
+  .boxes .all-box .box1 .box1-in {
+    height: auto !important;
+  }
+  .boxes .all-box .box1 .box1-in i {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    line-height: 12rem;
+    margin-bottom: 2rem;
+    font-size: 7rem;
+  }
+  .boxes .all-box .box1 .box1-in h1 {
+    font-size: 2.8rem;
+  }
+  .boxes .all-box .box1 .box1-in p {
+    font-size: 1.3rem;
   }
   .box1-in {
     height: auto !important;
   }
   .box1-in i {
-    width: 13rem !important;
-    height: 13rem !important;
+    width: 9rem !important;
+    height: 9rem !important;
     border-radius: 50%;
-    line-height: 13rem !important;
+    line-height: 9rem !important;
     margin-bottom: 2rem;
-    font-size: 6em !important;
+    font-size: 4rem !important;
   }
   .box1-in h1 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
   .box1-in p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  .testimional {
+    height: auto !important;
+  }
+  .testimional .test1 .imgphoto {
+    width: 30% !important;
+    height: 40% !important;
+  }
+  .follow {
+    margin-top: 2rem;
+  }
+  .follow .bg .bg-right {
+    padding: 20px;
+  }
+  .follow .bg .bg-right .text-right {
+    width: 70% !important;
+  }
+  .follow .bg .bg-right .text-right h1 {
+    font-size: 2.7rem !important;
+  }
+  .follow .bg .bg-right .text-right p {
+    font-size: 1.6rem !important;
+    line-height: 1.5 !important;
+  }
+  .follow .bg .bg-right .text-right input {
+    width: 80% !important;
+    font-size: 1.3rem !important;
+  }
+  .follow .bg .bg-right .text-right button {
+    width: 50% !important;
+    font-size: 1.3rem !important;
+  }
+  .customer {
+    height: auto !important;
+    padding: 2rem 0;
+    margin-top: 2rem;
+  }
+  .customer h1 {
+    font-size: 2.2rem !important;
+  }
+  .customer p {
+    font-size: 1.5rem !important;
+  }
+  .video {
+    height: auto !important;
+  }
+  .video h1 {
+    margin-top: 2rem;
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .contact {
+    height: auto !important;
   }
 }
 
@@ -191,6 +354,9 @@
     height: auto !important;
   }
   .box1-in {
+    height: auto !important;
+  }
+  .contact {
     height: auto !important;
   }
 }
